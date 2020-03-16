@@ -1,0 +1,10 @@
+package com.test03;
+
+public class Address {
+
+	private String name;
+	private String addr;
+	private String phone;
+	
+	
+}

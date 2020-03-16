@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;applicationContext.xml&apos; to &apos;Spring02/src/com.test01&apos;&#x0D;&#x0A;- Original project: &apos;Spring02&apos;&#x0D;&#x0A;- Destination element: &apos;Spring02/src/com.test01&apos;&#x0D;&#x0A;- Original element: &apos;applicationContext.xml&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move file" destination="/src&lt;com.test01" element1="applicationContext.xml" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1584350115560" units="0" version="1.0"/>
+</session>

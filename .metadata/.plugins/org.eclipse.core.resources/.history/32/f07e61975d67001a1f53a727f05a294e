@@ -1,0 +1,12 @@
+package com.test03;
+
+import com.test02.MessageBean;
+
+public class MessageBeanEn implements MessageBean {
+
+	@Override
+	public void sayHello(String name) {
+		System.out.println("Hello, " + name);
+	}
+
+}
