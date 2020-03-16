@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<!-- abstract class는 new로 객체 생성이 불가능하므로 factory-method를 써줌 -->
+	<bean id="singleton" class="com.test01.AbstractTest" factory-method="getInstance"></bean>
+
+</beans>

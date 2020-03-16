@@ -3,6 +3,7 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
+	<!-- 기본생성자를 호출 -->
 	<bean id="korean" class="com.test03.MessageBeanKo"></bean>
 	<bean id="english" class="com.test03.MessageBeanEn"></bean>
 
