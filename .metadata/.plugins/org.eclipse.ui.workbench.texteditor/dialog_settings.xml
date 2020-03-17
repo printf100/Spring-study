@@ -5,6 +5,8 @@
 		<item key="wholeword" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
+			<item value="1"/>
+			<item value="&#x09;&#x09;System.out.println(&quot;samsong tv power on&quot;);"/>
 		</list>
 		<list key="replacehistory">
 		</list>
