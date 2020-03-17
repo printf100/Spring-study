@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:c="http://www.springframework.org/schema/c"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<!-- 홍길동, 2500000, 개발팀 : 생성자만 사용 -->
+	<bean id="h" class="com.test05.Emp">
+		<constructor-arg name="name" value="홍길동"></constructor-arg>
+		<constructor-arg name="salary" value="2500000"></constructor-arg>
+	</bean>
+
+	<bean id="hong" class="com.test05.Developer">
+		<constructor-arg name="emp" ref="h"></constructor-arg>
+		<constructor-arg name="dept" value="개발팀"></constructor-arg>
+	</bean>
+
+	<!-- 이순신, 2000000, 기술팀 : setter만 사용 -->
+	<bean id="l" class="com.test05.Emp">
+		<property name="name" value="이순신"></property>
+		<property name="salary" value="2000000"></property>
+	</bean>
+
+	<bean id="lee" class="com.test05.Engineer">
+		<property name="emp" ref="l"></property>
+		<property name="dept" value="기술팀"></property>
+	</bean>
+
+</beans>

@@ -1,0 +1,24 @@
+package com.test06;
+
+public class Samsong implements TV {
+
+	@Override
+	public void powerOn() {
+		System.out.println("samsong tv power on");
+	}
+
+	@Override
+	public void powerOff() {
+	}
+
+	@Override
+	public void volumeUp() {
+
+	}
+
+	@Override
+	public void volumeDown() {
+
+	}
+
+}

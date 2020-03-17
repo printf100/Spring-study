@@ -23,7 +23,7 @@ public class Emp {
 
 	@Override
 	public String toString() {
-		return "이름 : " + name + "\t 월급 : " + salary + "]";
+		return "이름 : " + name + "\t 월급 : " + salary;
 	}
 
 }
