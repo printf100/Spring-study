@@ -74,7 +74,10 @@ public class RSocketShellClient {&#xD;
 &lt;pre&gt;&lt;code class="prettyprint bash"&gt;cd rsocket-server&#xD;
 ./mvnw clean package spring-boot:run -DskipTests=true
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;The server starts on &lt;code&gt;localhost&lt;/code&gt; port &lt;code&gt;7000&lt;/code&gt;.&lt;/p&gt;&lt;h4&gt;&lt;a href="#step-4-build-and-run-the-rsocket-client" class="anchor" name="step-4-build-and-run-the-rsocket-client"&gt;&lt;/a&gt;Step 4: Build And Run The RSocket Client&lt;/h4&gt;
+&lt;p&gt;The server starts on &lt;code&gt;localhost&lt;/code&gt; port &lt;code&gt;7000&lt;/code&gt;.&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;For details on how to run a Linux terminal on Windows 10, see &lt;a href="https://ubuntu.com/wsl"&gt;this quick guide from Ubuntu&lt;/a&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;&lt;h4&gt;&lt;a href="#step-4-build-and-run-the-rsocket-client" class="anchor" name="step-4-build-and-run-the-rsocket-client"&gt;&lt;/a&gt;Step 4: Build And Run The RSocket Client&lt;/h4&gt;
 &lt;p&gt;Open a &lt;em&gt;second&lt;/em&gt; terminal window and move to the &lt;code&gt;rsocket-client&lt;/code&gt; directory. From there, build and run the client application as follows:&lt;/p&gt;
 &lt;pre&gt;&lt;code class="prettyprint bash"&gt;cd rsocket-client&#xD;
 ./mvnw clean package spring-boot:run -DskipTests=true
