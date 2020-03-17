@@ -12,7 +12,7 @@ public class MTest {
 		Emp hong = (Emp) factory.getBean("hong");
 		System.out.println(hong);
 
-		Emp lee = factory.getBean("lee", Emp.class);
+		Emp lee = (Emp) factory.getBean("lee");
 		System.out.println(lee);
 	}
 }

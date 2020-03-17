@@ -1,17 +1,9 @@
-package com.test03;
+package com.test04;
 
 public class Emp {
 
 	private String name;
 	private int salary;
-
-	public Emp() {
-	}
-
-	public Emp(String name, int salary) {
-		this.name = name;
-		this.salary = salary;
-	}
 
 	public String getName() {
 		return name;
@@ -31,7 +23,7 @@ public class Emp {
 
 	@Override
 	public String toString() {
-		return "이름 : " + name + "\t 월급 : " + salary;
+		return "이름 : " + name + "\t 월급 : " + salary + "]";
 	}
 
 }

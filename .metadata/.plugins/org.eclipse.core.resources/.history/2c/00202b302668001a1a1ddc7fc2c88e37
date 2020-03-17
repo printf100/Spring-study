@@ -9,10 +9,10 @@ public class MTest {
 
 		ApplicationContext factory = new ClassPathXmlApplicationContext("com/test03/applicationContext.xml");
 
-		Emp hong = (Emp) factory.getBean("hong");
+		Developer hong = (Developer) factory.getBean("hong");
 		System.out.println(hong);
 
-		Emp lee = factory.getBean("lee", Emp.class);
+		Engineer lee = (Engineer) factory.getBean("lee");
 		System.out.println(lee);
 	}
 }
