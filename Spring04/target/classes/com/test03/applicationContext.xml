@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean id="favoriteFood" name="favoriteFood" class="com.test03.Food">
+		<property name="name" value="킹크랩"></property>
+		<property name="price" value="200000"></property>
+	</bean>
+
+	<bean id="unFavoriteFood" name="unFavoriteFood" class="com.test03.Food">
+		<constructor-arg name="name" value="두리안"></constructor-arg>
+		<constructor-arg name="price" value="10000"></constructor-arg>
+	</bean>
+	
+	
+	<!-- autowire : bean을 자동으로 연결해주는 것 -->
+	
+	<!-- byName : Autowiring by property name
+					property 이름과 자동 연결 (setFavoriteFood, setUnFavoriteFood)
+					[ setter와 같은 이름(id / name) ]의 bean이 있으면 자동 할당
+					
+					하나가 id, name 둘 다 일치하지 않으면 그 bean은 null / id, name 둘 중에 하나만 일치하면 값 나옴 -->
+	
+	<!-- byType : Autowiring if there is exactly one bean of the property type in the container. If there is more than one, a fatal error is raised
+					property 타입과 정확히 일치하는 하나의 bean과 자동 연결 (하나 이상의 bean이 존재하면 에러, 없으면 아무 일도 일어나지 않음)
+					[ setter의 파라미터 타입 ]과 같은 타입의 bean이 있으면 자동 할당 -->
+	
+	<!-- constructor : If there is not exactly one bean of the constructor argument type in the bean factory, a fatal error is raised
+						[ 생성자 파라미터 타입 ]과 같은 타입의 bean이 있으면 자동 할당 (정확히 일치하는 bean이 없으면 에러)
+						여러개면 id나 name으로 할당, 여러 개중 하나라도 일치하지 않으면 기본 생성자를 호출함
+						
+						하나만 있으면 byType과 동일 / 두 개 이상이면 byName과 유사한데, 두 bean 중에 id, name 하나라도 틀리면 둘다 null로 출력 -->
+						
+	<!-- defualt : 생성자에 할당할 type이 있는지 확인(constructor), 없으면 setter 파라미터에 할당할 type이 있는지 확인(byType)
+					@Autowired라는 어노테이션이 이 방식으로 동작 -->
+						
+	<bean id="myFood" class="com.test03.MyFood" autowire="constructor">
+	</bean>
+
+</beans>
