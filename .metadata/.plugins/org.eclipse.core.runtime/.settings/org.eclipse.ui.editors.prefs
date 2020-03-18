@@ -12,6 +12,7 @@ LSP4ETextOccurrenceIndicationColor=26,95,140
 LSP4EWriteOccurrenceIndicationColor=26,95,140
 PHPReadOccurrenceIndicationColor=65,65,4
 PHPWriteOccurrenceIndicationColor=65,65,4
+STS4BootMarkerIndicationColor=54,81,25
 TextOccurrenceIndicationColor=27, 98, 145
 asOccurencesIndicationColor=65,65,4
 breakpointIndicationColor=49,115,187
