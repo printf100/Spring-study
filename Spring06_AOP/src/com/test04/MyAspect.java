@@ -14,6 +14,7 @@ public class MyAspect {
 		System.out.println("출석카드를 찍는다.");
 	}
 
+	// 예외가 발생하면 동작
 	@AfterThrowing("execution(public * *(..))")
 	public void throwingMethod() {
 		System.out.println("쉬는 날이었다.");
