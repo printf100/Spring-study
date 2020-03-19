@@ -1,7 +1,7 @@
 package com.edu.entity;
 
 public class Rectangle extends Shape {
-	
+
 	public Rectangle() {
 	}
 

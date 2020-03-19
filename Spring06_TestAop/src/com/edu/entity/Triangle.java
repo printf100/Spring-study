@@ -1,7 +1,7 @@
 package com.edu.entity;
 
 public class Triangle extends Shape {
-	
+
 	public Triangle() {
 	}
 
@@ -11,7 +11,7 @@ public class Triangle extends Shape {
 
 	@Override
 	public void viewSize() {
-		System.out.println(getTitle() + "의 넓이 : " + (getWidth() * getHeight())/2);
+		System.out.println(getTitle() + "의 넓이 : " + (getWidth() * getHeight()) / 2);
 	}
 
 }
