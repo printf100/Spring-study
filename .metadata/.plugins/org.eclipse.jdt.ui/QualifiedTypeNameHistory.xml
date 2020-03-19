@@ -30,8 +30,6 @@
 <fullyQualifiedTypeName name="com.test06.BeanFactory"/>
 <fullyQualifiedTypeName name="com.test06.TV"/>
 <fullyQualifiedTypeName name="java.util.Date"/>
-<fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
-<fullyQualifiedTypeName name="org.springframework.context.support.ClassPathXmlApplicationContext"/>
 <fullyQualifiedTypeName name="com.test01.MyClass"/>
 <fullyQualifiedTypeName name="com.test01.BeanTest"/>
 <fullyQualifiedTypeName name="java.util.Set"/>
@@ -39,4 +37,18 @@
 <fullyQualifiedTypeName name="java.util.Collections"/>
 <fullyQualifiedTypeName name="java.util.Collection"/>
 <fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="org.springframework.context.MessageSourceAware"/>
+<fullyQualifiedTypeName name="com.test02.MemberInfo"/>
+<fullyQualifiedTypeName name="java.util.Locale"/>
+<fullyQualifiedTypeName name="com.test03.Food"/>
+<fullyQualifiedTypeName name="com.test03.MyFood"/>
+<fullyQualifiedTypeName name="com.test01.MyNickPrn"/>
+<fullyQualifiedTypeName name="com.test02.School"/>
+<fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Qualifier"/>
+<fullyQualifiedTypeName name="javax.annotation.Resource"/>
+<fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
+<fullyQualifiedTypeName name="org.springframework.context.support.ClassPathXmlApplicationContext"/>
+<fullyQualifiedTypeName name="com.test03.TV"/>
+<fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+<fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
 </qualifiedTypeNameHistroy>

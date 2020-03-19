@@ -22,9 +22,9 @@
 		<property name="myClass" ref="myClass"></property>
 
 		<!-- 3. setDate(Date date) 호출 - 오늘 날짜로 -->
-		<property name="date">
-			<bean class="java.util.Date" />
-		</property>
+<!-- 		<property name="date"> -->
+<!-- 			<bean class="java.util.Date" /> -->
+<!-- 		</property> -->
 
 		<!-- 4. setNumber(int i) 호출 -->
 		<property name="number">

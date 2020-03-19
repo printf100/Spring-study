@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean id="woman" class="com.test02.Woman"></bean>
+	<bean id="man" class="com.test02.Man"></bean>
+	
+	<!-- CCC (Cross Cutting Concern) -->
+	<bean id="myAdvice" class="com.test02.MyAspect"></bean>
+	
+	<!-- proxy 객체 생성 -->
+	<bean class="org.springframework.aop.framework.autoproxy.DefaultAdvisorAutoProxyCreator"></bean>
+	
+	<!-- advisor(aspect) : advice + pointcut -->
+	<bean id="myAdvisor" class="org.springframework.aop.aspectj.AspectJExpressionPointcutAdvisor">
+		<property name="advice" ref="myAdvice"></property>
+		<!-- 리턴타입 상관x , 메소드 이름 상관x , 파라미터 갯수 0 또는 1이상 -->
+		<property name="expression" value="execution(public * *(..))"></property>
+	</bean>
+
+</beans>
