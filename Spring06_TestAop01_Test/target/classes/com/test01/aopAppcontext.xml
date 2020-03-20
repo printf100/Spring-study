@@ -8,8 +8,17 @@
 		http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-4.3.xsd">
 
 	<aop:aspectj-autoproxy></aop:aspectj-autoproxy>
+	<context:component-scan base-package="com.test01"></context:component-scan>
 	
-	<bean id="person01" class="com.test01.Person"></bean>
-	<bean id="person02" class="com.test01.Person"></bean>
+<!-- 	<bean id="myAdvice" class="com.test01.MyAdvice"></bean>
+	
+	<aop:config>
+		<aop:pointcut expression="execution(public * sayName(..))" id="namePoint"/>
+		<aop:aspect ref="myAdvice">
+			<aop:before method="beforeSaying" pointcut-ref="namePoint"/>
+			<aop:after method="afterSaying" pointcut-ref="namePoint"/>
+			<aop:after-returning method="afterReturnSaying" pointcut-ref="namePoint"/>
+		</aop:aspect>
+	</aop:config> -->
 
 </beans>
