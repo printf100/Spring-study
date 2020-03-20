@@ -2,7 +2,9 @@ package com.hello.mvc.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
 
 import com.hello.mvc.model.biz.HelloBiz;
@@ -28,4 +30,22 @@ public class HelloController {
 
 		return mav;
 	}
+	
+	@RequestMapping("/bye.do")
+	public String getBye(String name, Model model) {
+		
+		model.addAttribute("message", name);
+		
+		return "/WEB-INF/views/bye.jsp";
+	}
 }
+
+/*
+ * @RequestMapping : url을 class 또는 method와 mapping 시켜주는 역할
+ * 
+ * @RequestParam : key=value 형태로 넘어오는 파라미터를 mapping된 method의 파라미터로 지정
+ * 
+ * @ModelAttribute : form tag를 통해 넘어온 model을 mapping된 method의 파라미터로 지정 (POST)
+ * 
+ * @SessionAttribute : session에서 model의 정보를 유지하고 싶을 경우 사용
+ */
