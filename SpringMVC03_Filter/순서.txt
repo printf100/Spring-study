@@ -1,0 +1,25 @@
+SpringMVC03
+
+1. pom.xml : ojdbc6 (+ repository), mybatis, mybatis-spring, commons-dbcp, spring-orm
+
+2. web.xml : applicationContext.xml 바꾸기, mapping(*.do로), encoding filter 작성
+
+3. /WEB-INF/spring/sqls/myboard.sql
+
+4. dto, dao, biz, controller 작성
+
+5. src/main/resources/mybatis/board-mapper.xml 작성
+
+6. src/main/resources/mybatis/db.properties 작성
+
+7. /WEB-INF/spring/sqls/config.xml 작성
+
+8. applicationContext.xml, servlet-context.xml 작성
+
+
+
+_filter
+
+9. com/mvc/upgrade/common/filter/LogFilter (impl javax.servlet.Filter)
+
+10. web.xml : Filter 적용

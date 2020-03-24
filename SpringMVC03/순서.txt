@@ -6,7 +6,7 @@ SpringMVC03
 
 3. /WEB-INF/spring/sqls/myboard.sql
 
-4. dto, dao, biz, controller
+4. dto, dao, biz, controller 작성
 
 5. src/main/resources/mybatis/board-mapper.xml 작성
 
