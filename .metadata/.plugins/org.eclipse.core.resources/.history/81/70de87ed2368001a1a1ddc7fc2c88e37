@@ -1,7 +1,0 @@
-package com.test03;
-
-public class Developer extends Emp {
-
-	private String dept;
-	
-}

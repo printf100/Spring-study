@@ -5,7 +5,58 @@
   <link rel="self" href="https://spring.io/blog.atom" />
   <id>http://spring.io/blog.atom</id>
   <icon>https://spring.io/favicon.ico</icon>
-  <updated>2020-03-23T22:03:00Z</updated>
+  <updated>2020-03-24T23:51:26Z</updated>
+  <entry>
+    <title>This Week in Spring - March 24th, 2020</title>
+    <link rel="alternate" href="https://spring.io/blog/2020/03/24/this-week-in-spring-march-24th-2020" />
+    <category term="engineering" label="Engineering" />
+    <author>
+      <name>Josh Long</name>
+    </author>
+    <id>tag:spring.io,2020-03-24:4007</id>
+    <updated>2020-03-24T23:51:26Z</updated>
+    <content type="html">&lt;p&gt;Hi, Spring fans! Welcome to another installment of &lt;em&gt;This Week in Spring&lt;/em&gt;! It&amp;rsquo;s a beautiful Tuesday for any number of reasons. I presented in the &lt;a href="https://www.devdotnext.com/digital"&gt;DevDotNext digital edition show just a few hours ago&lt;/a&gt; - that was a &lt;em&gt;lot&lt;/em&gt; of fun and I highly recommend you consider attending the next editions (online or - assuming we get past this pandemic - online). &lt;/p&gt;
+&lt;p&gt;Today is &lt;em&gt;also&lt;/em&gt; the 16th birthday of Spring Framework 1.0 - released this day in 2004! What a journey! And of course, the person who announced that that version, the amazing &lt;a href="http://twitter.com/trisberg"&gt;Thomas Risberg (@trisberg)&lt;/a&gt;, is one of many people who were there then and are still here on the Spring team now. Spring&amp;rsquo;s come a long way since then! &lt;a href="https://spring.io/blog/2004/03/24/spring-framework-1-0-final-released"&gt;Check out the blog itself&lt;/a&gt;. If you want to see the original blog in all of its early-2000s glory, it&amp;rsquo;s here on the &lt;a href="https://web.archive.org/web/20040330131500/http://www.springframework.org/"&gt;Internet Wayback machine&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I mentioned the birthday on &lt;a href="https://twitter.com/starbuxman/status/1242353917691719680"&gt;Twitter&lt;/a&gt; and got some nice replies about people&amp;rsquo;s use of the Framework in the replies. I love this sort of stuff. :-) &lt;/p&gt;
+&lt;p&gt;Anyway, let&amp;rsquo;s get to this week&amp;rsquo;s roundup. There is a &lt;em&gt;ton&lt;/em&gt; of stuff to get to! I&amp;rsquo;ve been doing this roundup every week since January 2011, and there&amp;rsquo;s &lt;em&gt;always&lt;/em&gt; something interesting to review. As there had been for the six years before that since the 1.0 release. What a wonderful problem to have :)&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://spring.io/blog/2020/03/24/spring-framework-5-2-5-available-now"&gt;Spring Framework 5.2.5 available now&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://spring.io/blog/2020/03/23/spring-boot-for-apache-geode-pivotal-gemfire-1-3-0-m3-released"&gt;Spring Boot for Apache Geode &amp;amp; Pivotal GemFire 1.3.0.M3 Released&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://spring.io/blog/2020/03/23/getting-started-with-rsocket-spring-boot-request-stream"&gt;Getting Started With RSocket: Spring Boot Request-Stream&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://spring.io/blog/2020/03/20/spring-cloud-data-flow-2-5-0-m1-released"&gt;Spring Cloud Data Flow 2.5.0.M1 Released&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://spring.io/blog/2020/03/20/spring-tools-4-6-0-released"&gt;Spring Tools 4.6.0 released&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;How cool is this? There&amp;rsquo;s a new Secrets Manager integration in Spring Cloud Google Cloud Platform - &lt;a href="https://cloud.spring.io/spring-cloud-static/spring-cloud-gcp/1.2.2.RELEASE/reference/html/#secret-manager"&gt;check it out&lt;/a&gt;!&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://twitter.com/java/status/1242555278643482624"&gt;Take a look at the new NetBeans features&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Check out &lt;a href="https://twitter.com/confluentinc/status/1242542977433718784"&gt;Confluent&amp;rsquo;s ksqlDB&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Learn how to do fully remote and &lt;a href="https://twitter.com/VMwareTanzu/status/1242498168400601088"&gt;distributed software with this expertise from Pivotal Labs&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://twitter.com/confluentinc/status/1242497264981094401"&gt;I love this post on the lessons Confluent itself learned when building Confluent Cloud&lt;/a&gt; - worth a read!&lt;/li&gt;
+  &lt;li&gt;I love this - two of my favorite data-centric engineers - &lt;a href="https://www.youtube.com/watch?v=H4sN34-nxEE&amp;feature=emb_title"&gt;Thorben Janssen talks to Spring Data lead Mark Paluch &lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://twitter.com/cloudfoundry/status/1242474089408679938"&gt;You should try out KubeCF - a Cloud Foundry distribution for Kubernetes&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Last week&amp;rsquo;s &amp;lsquo;Spring Live&amp;rsquo; was an amazing show and we are so grateful for everyone who turned up! &lt;a href="https://twitter.com/rseroter/status/1242218927532290048?s=12"&gt;As promised, we donated $20,000 to charity as a result&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;A great blog by Matt Raible over on the Okta Developer about &lt;a href="https://developer.okta.com/blog/2020/03/23/microservice-security-patterns"&gt;Security Patterns for Microservice Architectures&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://twitter.com/eddumelendez/status/1241448301431525376?s=12"&gt;Community legend Edd? Mel?ndez has a great list of projects that are ideal for novice contributions&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;I like this post: &lt;a href="https://www.marcobehler.com/guides/spring-boot"&gt;&lt;em&gt;What is Spring Boot Autoconfigurations&lt;/em&gt;&lt;/a&gt;?&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://blog.ik.am/entries/515"&gt;Tanzu&amp;rsquo;s very own Toshiaki Maki has a great post on using Azure Files with Cloud Foundry&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://twitter.com/ritam/status/1241052489446649862?s=12"&gt;I love Redmonk&amp;rsquo;s James Governors perspective on VMWare Tanzu&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;I love the new features in &lt;a href="https://devblogs.microsoft.com/java/java-on-visual-studio-code-update-march-2020/"&gt;the Microsoft Visual Studio Code for Java editor plugin&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- rendered by Sagan Renderer Service --&gt;</content>
+  </entry>
+  <entry>
+    <title>Spring Framework 5.2.5 available now</title>
+    <link rel="alternate" href="https://spring.io/blog/2020/03/24/spring-framework-5-2-5-available-now" />
+    <category term="releases" label="Releases" />
+    <author>
+      <name>St?phane Nicoll</name>
+    </author>
+    <id>tag:spring.io,2020-03-24:4006</id>
+    <updated>2020-03-24T12:22:00Z</updated>
+    <content type="html">&lt;p&gt;On behalf of the team and everyone who has contributed, I am pleased to announce that Spring Framework 5.2.5 is available now.&lt;/p&gt;
+&lt;p&gt;Spring Framework 5.2.5 includes &lt;a href="https://github.com/spring-projects/spring-framework/releases/tag/v5.2.5.RELEASE"&gt;over 50 fixes and improvements&lt;/a&gt;. This release adds support for the recently released Java 14.&lt;/p&gt;
+&lt;p&gt;As usual, we&amp;rsquo;ll follow up shortly with Spring Boot &lt;code&gt;2.2.6&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://projects.spring.io/spring-framework/"&gt;Project Page&lt;/a&gt; | &lt;a href="https://github.com/spring-projects/spring-framework"&gt;GitHub&lt;/a&gt; | &lt;a href="https://github.com/spring-projects/spring-framework/issues"&gt;Issues&lt;/a&gt; | &lt;a href="https://docs.spring.io/spring-framework/docs/5.2.5.RELEASE/spring-framework-reference"&gt;Documentation&lt;/a&gt;&lt;/p&gt;
+&lt;!-- rendered by Sagan Renderer Service --&gt;</content>
+  </entry>
   <entry>
     <title>Spring Boot for Apache Geode &amp; Pivotal GemFire 1.3.0.M3 Released</title>
     <link rel="alternate" href="https://spring.io/blog/2020/03/23/spring-boot-for-apache-geode-pivotal-gemfire-1-3-0-m3-released" />
@@ -1171,122 +1222,6 @@ class Runner {&#xD;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;!-- rendered by Sagan Renderer Service --&gt;</content>
-  </entry>
-  <entry>
-    <title>Getting Started With RSocket: Spring Boot Client</title>
-    <link rel="alternate" href="https://spring.io/blog/2020/03/09/getting-started-with-rsocket-spring-boot-client" />
-    <category term="engineering" label="Engineering" />
-    <author>
-      <name>Ben Wilcock</name>
-    </author>
-    <id>tag:spring.io,2020-02-28:3979</id>
-    <updated>2020-03-09T16:00:00Z</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;Time: approximately 15 mins.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;In the &lt;a href="https://spring.io/blog/2020/03/02/getting-started-with-rsocket-spring-boot-server"&gt;previous article&lt;/a&gt;, you saw how Spring Boot simplifies the task of writing RSocket servers. But what about RSocket clients? In this article, you¡¯ll learn how to write your own RSocket client and then use this new client to send request-response messages to your RSocket-server. Let¡¯s get started!&lt;/p&gt;
-&lt;p&gt;This tutorial uses the Linux shell. For details on how to run a Linux shell on Windows, see &lt;a href="https://docs.microsoft.com/en-us/windows/wsl/install-win10"&gt;this Microsoft tutorial&lt;/a&gt;.&lt;/p&gt;&lt;h1&gt;&lt;a href="#step-1-create-a-new-spring-boot-project-for-your-client" class="anchor" name="step-1-create-a-new-spring-boot-project-for-your-client"&gt;&lt;/a&gt;Step 1: Create A New Spring Boot Project For Your Client&lt;/h1&gt;
-&lt;p&gt;It¡¯s fun to write your own code, so for your RSocket client let¡¯s start from scratch. &lt;/p&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;If this is too much hassle for you, or you don¡¯t have the time right now, then you can find the code in the rsocket-client folder of the &lt;a href="https://github.com/benwilcock/spring-rsocket-demo"&gt;demo code repository&lt;/a&gt;. &lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Open your browser and navigate to start.spring.io then use the following settings to create a new Spring Boot project:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Project: &lt;code&gt;Maven&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;Language: &lt;code&gt;Java&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;Spring Boot: &lt;code&gt;2.2.5&lt;/code&gt; (or whichever is the latest GA version)&lt;/li&gt;
-  &lt;li&gt;Group: &lt;code&gt;io.pivotal&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;Artifact: &lt;code&gt;rsocket-client&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;Dependencies: &lt;code&gt;RSocket&lt;/code&gt;, &lt;code&gt;Lombok&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Click the green &lt;strong&gt;¡°Generate¡±&lt;/strong&gt; button. Download the ZIP file and extract the project into a folder, then open the extracted project in your favorite Java IDE.&lt;/p&gt;&lt;h1&gt;&lt;a href="#step-2-add-spring-shell-to-the-project" class="anchor" name="step-2-add-spring-shell-to-the-project"&gt;&lt;/a&gt;Step 2: Add Spring Shell To The Project&lt;/h1&gt;
-&lt;p&gt;&lt;a href="https://docs.spring.io/spring-shell/docs/2.0.0.RELEASE/reference/htmlsingle/"&gt;Spring Shell&lt;/a&gt; helps you write simple terminal programs using Spring Boot. At the time of writing, the Spring Initializr doesn¡¯t offer a Spring Shell option, but you can still use it by adding the dependency to your project manually. &lt;/p&gt;
-&lt;p&gt;Open the Maven &lt;code&gt;pom.xml&lt;/code&gt; file in your IDE, and add the following xml into the &lt;code&gt;&amp;lt;dependencies&amp;gt;&lt;/code&gt; section:&lt;/p&gt;
-&lt;pre&gt;&lt;code class="prettyprint xml"&gt;&amp;lt;dependency&amp;gt;&#xD;
-    &amp;lt;groupId&amp;gt;org.springframework.shell&amp;lt;/groupId&amp;gt;&#xD;
-    &amp;lt;artifactId&amp;gt;spring-shell-starter&amp;lt;/artifactId&amp;gt;&#xD;
-    &amp;lt;version&amp;gt;2.0.0.RELEASE&amp;lt;/version&amp;gt;&#xD;
-&amp;lt;/dependency&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;This will enable Spring Shell in your new RSocket client project.&lt;/p&gt;&lt;h1&gt;&lt;a href="#step-3-write-the-code" class="anchor" name="step-3-write-the-code"&gt;&lt;/a&gt;Step 3: Write The Code&lt;/h1&gt;
-&lt;p&gt;There are a few short coding tasks required to add Spring Shell and RSocket support to your new RSocket client application. They are as follows:&lt;/p&gt;&lt;h4&gt;&lt;a href="#delete-the-test" class="anchor" name="delete-the-test"&gt;&lt;/a&gt;Delete The Test&lt;/h4&gt;
-&lt;p&gt;You can delete the auto-generated &lt;code&gt;RsocketclientApplicationTests&lt;/code&gt; test class. If you don¡¯t, odd things might happen when you run the Spring ¡®integration¡¯ test. For details, see the notes section &lt;a href="https://docs.spring.io/spring-shell/docs/2.0.0.RELEASE/reference/htmlsingle/#_adding_a_dependency_on_spring_shell"&gt;here in the Spring Shell Docs&lt;/a&gt;. &lt;/p&gt;&lt;h4&gt;&lt;a href="#copy-the-message-class-from-the-server-code" class="anchor" name="copy-the-message-class-from-the-server-code"&gt;&lt;/a&gt;Copy The Message Class From The Server Code&lt;/h4&gt;
-&lt;p&gt;Copy over the &lt;code&gt;Message.java&lt;/code&gt; data class from the &lt;code&gt;io.pivotal.rsocketserver.data&lt;/code&gt; package. This package is in the &lt;code&gt;rsocket-server&lt;/code&gt; project folder you worked on in the &lt;a href="https://spring.io/blog/2020/03/02/getting-started-with-rsocket-spring-boot-server"&gt;previous article&lt;/a&gt;. You need this class in order to exchange messages with the server.&lt;/p&gt;&lt;h4&gt;&lt;a href="#create-the-rsocketshellclient-class" class="anchor" name="create-the-rsocketshellclient-class"&gt;&lt;/a&gt;Create The RSocketShellClient Class&lt;/h4&gt;
-&lt;p&gt;In the &lt;code&gt;io.pivotal.rsocketclient&lt;/code&gt; package, create a new class called &lt;code&gt;RSocketShellClient&lt;/code&gt; and annotate this class with the &lt;code&gt;@Slf4j&lt;/code&gt; and &lt;code&gt;@ShellComponent&lt;/code&gt; annotations. The first annotation tells Lombok to add logging features to this class and the second tells Spring that you are building a Shell-based component.&lt;/p&gt;
-&lt;pre&gt;&lt;code class="prettyprint java"&gt;@Slf4j&#xD;
-@ShellComponent&#xD;
-public class RSocketShellClient {&#xD;
- // Your code will go here...&#xD;
-}
-&lt;/code&gt;&lt;/pre&gt;&lt;h4&gt;&lt;a href="#set-up-your-rsocketrequester" class="anchor" name="set-up-your-rsocketrequester"&gt;&lt;/a&gt;Set Up Your RSocketRequester&lt;/h4&gt;
-&lt;p&gt;The RSocket client needs to know where it can find and communicate with the RSocket server. Spring RSocket support is autoconfigured by Spring Boot, you just have to build a customized &lt;code&gt;RSocketRequester&lt;/code&gt;. You can do this by adding a class constructor and using the &lt;code&gt;RSocketRequester.Builder&lt;/code&gt; as follows:&lt;/p&gt;
-&lt;pre&gt;&lt;code class="prettyprint java"&gt;// Add a global class variable for the RSocketRequester&#xD;
-private final RSocketRequester rsocketRequester;&#xD;
-&#xD;
-// Use an Autowired constructor to customize the RSocketRequester and store a reference to it in the global variable&#xD;
-@Autowired&#xD;
-public RSocketShellClient(RSocketRequester.Builder rsocketRequesterBuilder) {&#xD;
-    this.rsocketRequester = rsocketRequesterBuilder&#xD;
-            .connectTcp(&amp;quot;localhost&amp;quot;, 7000).block();&#xD;
-}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;The requester¡¯s &lt;code&gt;connectTcp()&lt;/code&gt; method needs to know the IP address and port of your RSocket server, and you need to tell the requester to &lt;code&gt;block()&lt;/code&gt; until a connection is established. After that, you¡¯re ready to communicate with the RSocket server over TCP.&lt;/p&gt;&lt;h4&gt;&lt;a href="#add-a-request-response-shell-method" class="anchor" name="add-a-request-response-shell-method"&gt;&lt;/a&gt;Add A Request-Response Shell Method.&lt;/h4&gt;
-&lt;p&gt;Adding shell capabilities in Spring Shell components is fairly straightforward. First of all, add a public &lt;code&gt;requestResponse()&lt;/code&gt; method returning &lt;code&gt;void&lt;/code&gt; to the &lt;code&gt;RSocketShellClient&lt;/code&gt;, and use the &lt;code&gt;@ShellMethod&lt;/code&gt; annotation over the method signature to activate Spring Shell and declare the help text that users will see if they type &lt;code&gt;help&lt;/code&gt;.&lt;/p&gt;
-&lt;p&gt;Inside the method, use the global reference to the &lt;code&gt;RSocketRequester&lt;/code&gt; and set the &lt;code&gt;route()&lt;/code&gt; to &lt;code&gt;&amp;quot;request-response&amp;quot;&lt;/code&gt;, the &lt;code&gt;data()&lt;/code&gt; to be a new &lt;code&gt;Message&lt;/code&gt; instance, and tell the requester to &lt;code&gt;retrieveMono()&lt;/code&gt; of type &lt;code&gt;Message&lt;/code&gt;. Finally, add a simple logging function to the &lt;code&gt;subscribe()&lt;/code&gt; method. The code for this is as follows:&lt;/p&gt;
-&lt;pre&gt;&lt;code class="prettyprint java"&gt;    @ShellMethod(&amp;quot;Send one request. One response will be printed.&amp;quot;)&#xD;
-    public void requestResponse() throws InterruptedException {&#xD;
-        log.info(&amp;quot;\nSending one request. Waiting for one response...&amp;quot;);&#xD;
-        Message message = this.rsocketRequester&#xD;
-                .route(&amp;quot;request-response&amp;quot;)&#xD;
-                .data(new Message(CLIENT, REQUEST))&#xD;
-                .retrieveMono(Message.class)&#xD;
-                .block();&#xD;
-        log.info(&amp;quot;\nResponse was: {}&amp;quot;, message);&#xD;
-    }
-&lt;/code&gt;&lt;/pre&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;RSocket is designed to deal with long-running, asynchronous streams of data. This is most effectively done using the functional programming style that you¡¯re already familiar with from the &lt;a href="https://www.oracle.com/technical-resources/articles/java/ma14-java-se-8-streams.html"&gt;Java 8 Stream API&lt;/a&gt;. &lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;The code above states what you&amp;rsquo;d like to happen when (and only when) there is messaging work to be done. In this case, you&amp;rsquo;ve committed to sending one request message, routed to the server&amp;rsquo;s &lt;code&gt;&amp;quot;request-response&amp;quot;&lt;/code&gt; handler method, and you expect one response message in return. This process is triggered by the call to the &lt;code&gt;block()&lt;/code&gt; method. Without it, nothing will happen. &lt;/p&gt;
-&lt;p&gt;That&amp;rsquo;s it for coding. Let&amp;rsquo;s run it!&lt;/p&gt;&lt;h1&gt;&lt;a href="#step-4-build-and-run-the-rsocket-server" class="anchor" name="step-4-build-and-run-the-rsocket-server"&gt;&lt;/a&gt;Step 4: Build And Run The RSocket Server&lt;/h1&gt;
-&lt;p&gt;As our server, you&amp;rsquo;re going to use the code from the &lt;a href="https://spring.io/blog/2020/03/02/getting-started-with-rsocket-spring-boot-server"&gt;previous article&lt;/a&gt;. Open a terminal window and move to the &lt;code&gt;rsocket-server&lt;/code&gt; directory and then run the server code using the Maven wrapper like this:&lt;/p&gt;
-&lt;pre&gt;&lt;code class="prettyprint bash"&gt;cd rsocket-server&#xD;
-./mvnw clean package spring-boot:run -DskipTests=true
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;The server will start up on &lt;code&gt;localhost&lt;/code&gt; port &lt;code&gt;7000&lt;/code&gt; and wait for your client to connect.&lt;/p&gt;&lt;h1&gt;&lt;a href="#step-5-build-and-run-the-rsocket-client" class="anchor" name="step-5-build-and-run-the-rsocket-client"&gt;&lt;/a&gt;Step 5: Build And Run The RSocket Client&lt;/h1&gt;
-&lt;p&gt;To run your RSocket client, open a second terminal window and move to your &lt;code&gt;rsocket-client&lt;/code&gt; directory. From there, build and run the client as follows:&lt;/p&gt;
-&lt;pre&gt;&lt;code class="prettyprint bash"&gt;cd rsocket-client&#xD;
-./mvnw clean package spring-boot:run -DskipTests=true
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;When the client finishes starting up, you will be presented with a new command line prompt like this: &lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;code&gt;shell:&amp;gt;&lt;/code&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;You can use this prompt to issue commands to your Spring application similar to issuing commands via a regular terminal app. &lt;/p&gt;
-&lt;p&gt;Let&amp;rsquo;s send a request message to the server and watch for a response. Do this by typing &lt;code&gt;request-response&lt;/code&gt; at the prompt. You will then see the request and response messages being sent and received like this:&lt;/p&gt;
-&lt;pre&gt;&lt;code class="prettyprint none"&gt;shell:&amp;gt;request-response&#xD;
-Sending one request. Waiting for one response...&#xD;
-Response was: Message(origin=Server, interaction=Response, index=0, created=1582558295)&#xD;
-shell:&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;I¡¯ve omitted much of the log detail here for brevity. Your output will be more verbose than shown, but the outcome will be the same. &lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;You can now stop your &lt;code&gt;rsocket-client&lt;/code&gt; by typing &lt;code&gt;exit&lt;/code&gt; at the &lt;code&gt;shell:&amp;gt;&lt;/code&gt; prompt. You can stop the &lt;code&gt;rsocket-server&lt;/code&gt; by pressing &lt;code&gt;Ctrl-C&lt;/code&gt; in its terminal window, or by closing it.&lt;/p&gt;&lt;h1&gt;&lt;a href="#how-it-all-works" class="anchor" name="how-it-all-works"&gt;&lt;/a&gt;How It All Works&lt;/h1&gt;
-&lt;p&gt;Spring Shell allows you to build and run terminal-like programs using Spring Boot. In the constructor of your shell component, you configured an &lt;code&gt;RSocketRequester&lt;/code&gt; to communicate with your server using TCP on localhost port 7000.&lt;/p&gt;
-&lt;p&gt;You then created a &lt;code&gt;requestResponse()&lt;/code&gt; method in your shell component and annotated it so that when you typed &lt;code&gt;request-response&lt;/code&gt; at the shell prompt, Spring Shell invoked this method. &lt;/p&gt;
-&lt;p&gt;When the &lt;code&gt;requestResponse()&lt;/code&gt; method was called, the client sent some metadata describing the &lt;code&gt;route&lt;/code&gt; to use, and then it sent the request as a &lt;code&gt;Message&lt;/code&gt; object. The server¡¯s response message was printed on the screen using a simple logging statement.&lt;/p&gt;&lt;h1&gt;&lt;a href="#that-s-it-you-rsquo-re-done" class="anchor" name="that-s-it-you-rsquo-re-done"&gt;&lt;/a&gt;That¡¯s It, You&amp;rsquo;re Done!&lt;/h1&gt;
-&lt;p&gt;In this article, you learned how to write a simple RSocket client using Spring Shell. This new client communicates with your RSocketServer over TCP. In the next article, we¡¯ll cover fire-and-forget messages with RSocket and Spring Boot by adding extra functionality to both your client and your server projects.&lt;/p&gt;
-&lt;!-- rendered by Sagan Renderer Service --&gt;</content>
-  </entry>
-  <entry>
-    <title>A Bootiful Podcast: Spring I/O organizer and Spring trainer extraordinairre Sergi Almar</title>
-    <link rel="alternate" href="https://spring.io/blog/2020/03/06/a-bootiful-podcast-spring-i-o-organizer-and-spring-trainer-extraordinairre-sergi-almar" />
-    <category term="engineering" label="Engineering" />
-    <author>
-      <name>Josh Long</name>
-    </author>
-    <id>tag:spring.io,2020-03-06:3987</id>
-    <updated>2020-03-06T04:41:20Z</updated>
-    <content type="html">&lt;p&gt;Hi, Spring fans! In this episode &lt;a href="https://twitter.com/starbuxman"&gt;Josh Long (@starbuxman)&lt;/a&gt; talks with &lt;a href="https://twitter.com/SergiAlmar"&gt;Sergi Almar (@sergiAlmar) &lt;/a&gt; about organizing one of the best JVM community shows in the business, Barcelona&amp;rsquo;s &lt;a href="https://springio.net/"&gt;Spring I/O&lt;/a&gt;, being a trainer, and so much more. &lt;/p&gt;
-&lt;iframe title="Spring I/O organizer and Spring trainer extraordinairre Sergi Almar " src="https://www.podbean.com/media/player/jvbuh-d5918d?from=usersite&amp;vjs=1&amp;skin=1&amp;fonts=Helvetica&amp;auto=0&amp;download=1" height="315" width="100%" style="border: none;" scrolling="no" data-name="pb-iframe-player"&gt;&lt;/iframe&gt;
 &lt;!-- rendered by Sagan Renderer Service --&gt;</content>
   </entry>
 </feed>

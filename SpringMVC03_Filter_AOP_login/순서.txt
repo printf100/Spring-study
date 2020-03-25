@@ -1,0 +1,53 @@
+SpringMVC03
+
+1. pom.xml : ojdbc6 (+ repository), mybatis, mybatis-spring, commons-dbcp, spring-orm
+
+2. web.xml : applicationContext.xml 바꾸기, mapping(*.do로), encoding filter 작성
+
+3. /WEB-INF/spring/sqls/myboard.sql
+
+4. dto, dao, biz, controller 작성
+
+5. src/main/resources/mybatis/board-mapper.xml 작성
+
+6. src/main/resources/mybatis/db.properties 작성
+
+7. /WEB-INF/spring/sqls/config.xml 작성
+
+8. applicationContext.xml, servlet-context.xml 작성
+
+
+
+_filter
+
+9. com/mvc/upgrade/common/filter/LogFilter (impl javax.servlet.Filter)
+
+10. web.xml : Filter 적용
+
+
+
+_AOP
+
+11. pom.xml : aspectjweaver, aspectjrt 추가
+
+12. com/mvc/upgrade/common/aop/LogAop
+
+13. WEB-INF/spring/appServlet/aop-context.xml
+
+14. web.xml : init-param에 aop-context.xml 추가
+
+15. src/main/resources/log4j.xml : logger 추가 및 log level 변경
+
+
+
+_login
+
+16. pom.xml : jackson-core-asl, jackson-mapper-asl 추가 (spring 4.x 이후부터는 변경됨)
+
+17. WEB-INF/spring/sqls/mymember.sql
+
+18. dto, dao, biz, controller 작성
+
+19. src/main/resources/mybatis/member-mapper.xml
+
+20. WEB-INF/spring/sqls/config.xml 에 등록
