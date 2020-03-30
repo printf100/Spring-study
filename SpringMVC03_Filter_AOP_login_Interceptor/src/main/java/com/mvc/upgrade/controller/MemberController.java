@@ -36,6 +36,7 @@ public class MemberController {
 
 	// 아이디 중복체크
 	@RequestMapping(value = "/ajaxidchk.do", method = RequestMethod.POST)
+	@ResponseBody
 	public Map<String, Boolean> ajaxIdChk(@RequestBody MemberDTO dto) {
 
 		logger.info("AJAX IDCHK");
@@ -55,7 +56,7 @@ public class MemberController {
 	}
 
 	// 회원가입 처리
-	@RequestMapping(value = "/join.do", method = RequestMethod.POST)
+	@RequestMapping(value = "/ajaxjoin.do", method = RequestMethod.POST)
 	@ResponseBody
 	public Map<String, Boolean> ajaxJoin(@RequestBody MemberDTO dto) {
 

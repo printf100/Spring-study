@@ -56,4 +56,6 @@ _login
 
 _Interceptor
 
-21. com/mvc/upgrade/common/interceptor/LoginInterceptor (impl HandlerInterceptor)
+21. com/mvc/upgrade/common/interceptor/L oginInterceptor (impl HandlerInterceptor)
+
+22. servlet-context.xml : Interceptor 추가
