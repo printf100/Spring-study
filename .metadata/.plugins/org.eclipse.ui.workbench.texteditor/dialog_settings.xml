@@ -4,7 +4,11 @@
 		<item key="casesensitive" value="false"/>
 		<item key="wholeword" value="false"/>
 		<item key="isRegEx" value="false"/>
+		<item key="selection" value="MIME Type"/>
 		<list key="findhistory">
+			<item value="mime type"/>
+			<item value="doc"/>
+			<item value="mime-type"/>
 			<item value="1"/>
 			<item value="&#x09;&#x09;System.out.println(&quot;samsong tv power on&quot;);"/>
 		</list>
