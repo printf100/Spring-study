@@ -1,16 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestParam"/>
-<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.ModelAttribute"/>
-<fullyQualifiedTypeName name="com.mvc.hello.dto.AddressDTO"/>
-<fullyQualifiedTypeName name="com.mvc.upgrade.model.dao.BoardDAOImpl"/>
 <fullyQualifiedTypeName name="com.mvc.upgrade.model.biz.BoardBizImpl"/>
 <fullyQualifiedTypeName name="com.mvc.upgrade.model.dto.BoardDTO"/>
 <fullyQualifiedTypeName name="com.mvc.upgrade.model.dao.BoardDAO"/>
 <fullyQualifiedTypeName name="com.mvc.upgrade.model.biz.BoardBiz"/>
 <fullyQualifiedTypeName name="java.io.PrintWriter"/>
 <fullyQualifiedTypeName name="com.mvc.upgrade.common.filter.LogFilter"/>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="com.mvc.ex01.model.dao.MyBoardDAO"/>
 <fullyQualifiedTypeName name="com.mvc.ex01.model.biz.MyBoardBiz"/>
 <fullyQualifiedTypeName name="com.mvc.ex01.model.dto.MyBoardDTO"/>
@@ -36,7 +31,6 @@
 <fullyQualifiedTypeName name="org.springframework.transaction.annotation.Transactional"/>
 <fullyQualifiedTypeName name="org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder"/>
 <fullyQualifiedTypeName name="com.mvc.updown.validate.FileValidator"/>
-<fullyQualifiedTypeName name="org.springframework.ui.Model"/>
 <fullyQualifiedTypeName name="org.springframework.validation.BindingResult"/>
 <fullyQualifiedTypeName name="org.springframework.web.servlet.ModelAndView"/>
 <fullyQualifiedTypeName name="org.springframework.web.multipart.MultipartFile"/>
@@ -53,11 +47,17 @@
 <fullyQualifiedTypeName name="org.springframework.web.util.WebUtils"/>
 <fullyQualifiedTypeName name="org.springframework.util.FileCopyUtils"/>
 <fullyQualifiedTypeName name="java.util.Date"/>
-<fullyQualifiedTypeName name="java.util.List"/>
-<fullyQualifiedTypeName name="com.mvc.update.model.dto.JdbcDto"/>
 <fullyQualifiedTypeName name="org.springframework.stereotype.Repository"/>
-<fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
 <fullyQualifiedTypeName name="org.springframework.stereotype.Controller"/>
 <fullyQualifiedTypeName name="org.springframework.stereotype.Service"/>
 <fullyQualifiedTypeName name="com.mvc.update.controller.JdbcController"/>
+<fullyQualifiedTypeName name="org.springframework.ui.Model"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="com.mvc.update.model.biz.JdbcBiz"/>
+<fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="org.springframework.jdbc.core.RowMapper"/>
+<fullyQualifiedTypeName name="com.mvc.update.model.dto.JdbcDto"/>
+<fullyQualifiedTypeName name="org.springframework.jdbc.core.JdbcTemplate"/>
+<fullyQualifiedTypeName name="com.mvc.update.model.dao.JdbcDaoImpl.MyMapper"/>
 </qualifiedTypeNameHistroy>
